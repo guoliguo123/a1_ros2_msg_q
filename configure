@@ -1,0 +1,6 @@
+#!/bin/sh
+
+export ROS_PACKAGE_PATH=/root/ros2_ws_b:${ROS_PACKAGE_PATH}
+export LD_LIBRARY_PATH=/root/unitree_legged_sdk/lib:${LD_LIBRARY_PATH}
+export UNITREE_LEGGED_SDK_PATH=/root/unitree_legged_sdk
+export UNITREE_PLATFORM="amd64"
